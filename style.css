@@ -1,0 +1,60 @@
+body{
+    background-color: indianred;
+    font-family: 'Viga', cursive;
+    font-weight: bold;
+    color: firebrick;
+    text-align: center;
+    font-size: 1rem;
+}
+h1{
+    margin: 0;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px lightcoral;
+    color: pink;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    background-color: lightcoral;
+}
+.foto{
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.texto{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    filter: sepia(80%);
+}
+img:hover{
+    filter: none;
+}
+@media screen and (min-width: 980px) {
+    .container{
+        flex-wrap: nowrap;
+    }
+    .foto{
+        flex-wrap: nowrap;
+        width: 24%;
+        margin: auto;
+    }
+    .texto{
+        flex-wrap: nowrap;
+        width: 76%;
+        margin: auto;
+        font-size: 1.25rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}

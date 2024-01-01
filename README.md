@@ -1,6 +1,6 @@
 # siteCorujasAulaCSS
 site básico para treinar css em aula<br>
-feito em dupla: Marina e eu
+feito em dupla na Etec de Guarulhos.
 <br><br>
 
 <div align="center">
